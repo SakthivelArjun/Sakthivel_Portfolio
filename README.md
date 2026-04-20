@@ -1,16 +1,95 @@
-# React + Vite
+# Sakthivel T | Professional Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[![Deploy static content to Pages](https://github.com/SakthivelArjun/Sakthivel_Portfolio/actions/workflows/deploy.yml/badge.svg)](https://github.com/SakthivelArjun/Sakthivel_Portfolio/actions/workflows/deploy.yml)
 
-Currently, two official plugins are available:
+A high-performance, professional portfolio designed with a clean SaaS aesthetic. Built with React, Tailwind CSS v4, and Framer Motion to showcase my work as a Frontend Developer.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+**✨ [Live Demo](https://SakthivelArjun.github.io/Sakthivel_Portfolio/)**
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Features
 
-## Expanding the ESLint configuration
+- **Professional Aesthetics**: A handcrafted "SaaS Dashboard" look with a focus on typography and space.
+- **Dark/Light Mode**: Fully responsive theme switching with system preference detection.
+- **Micro-Animations**: Smooth, premium transitions using Framer Motion (circOut curves).
+- **Automated Deployment**: CI/CD pipeline integrated with GitHub Actions.
+- **Responsive Design**: Optimized for all devices from mobile to large desktop displays.
+- **Supabase Integration**: Functional contact form powered by Supabase.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Tech Stack
+
+- **Core**: React 19, Vite
+- **Styling**: Tailwind CSS v4 (Alpha/Beta engine)
+- **Animations**: Framer Motion
+- **Icons**: Lucide React
+- **Backend/Forms**: Supabase
+- **Deployment**: GitHub Pages + Actions
+
+---
+
+## Project Structure
+
+```text
+src/
+├── assets/          # Images and static media
+├── components/      
+│   ├── layout/      # Navbar, Footer
+│   └── ui/          # Reusable UI elements (ThemeToggle, etc.)
+├── constants/       # Global data constants (the source of truth)
+├── hooks/           # Custom React hooks (useTheme)
+├── sections/        # Main page sections (Hero, Projects, Experience, etc.)
+└── utils/           # Utility functions (Supabase client)
+```
+
+---
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js 20+
+- npm
+
+### Installation
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/SakthivelArjun/Sakthivel_Portfolio.git
+   ```
+
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
+
+3. **Environment Setup**
+   Create a `.env` file in the root directory and add your Supabase credentials:
+   ```env
+   VITE_SUPABASE_URL=your_supabase_url
+   VITE_SUPABASE_ANON_KEY=your_supabase_key
+   ```
+
+4. **Start the development server**
+   ```bash
+   npm run dev
+   ```
+
+5. **Build for production**
+   ```bash
+   npm run build
+   ```
+
+---
+
+## Contact
+
+- **Email**: [sakthiarjun1318@gmail.com](mailto:sakthiarjun1318@gmail.com)
+- **LinkedIn**: [SakthivelArjun](https://linkedin.com/in/SakthivelArjun)
+- **GitHub**: [@SakthivelArjun](https://github.com/SakthivelArjun)
+
+---
+
+Developed with ❤️ by Sakthivel T
