@@ -87,7 +87,7 @@ src/
 ## Contact
 
 - **Email**: [sakthiarjun1318@gmail.com](mailto:sakthiarjun1318@gmail.com)
-- **LinkedIn**: [SakthivelArjun](https://linkedin.com/in/SakthivelArjun)
+- **LinkedIn**: [SakthivelArjun](https://www.linkedin.com/in/sakthivel-t-6613a3227/)
 - **GitHub**: [@SakthivelArjun](https://github.com/SakthivelArjun)
 
 ---
