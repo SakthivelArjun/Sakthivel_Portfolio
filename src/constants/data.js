@@ -12,7 +12,7 @@ export const PERSONAL_INFO = {
   github: "https://github.com/your-username",
   resume: "https://drive.google.com/file/d/sample-resume-link",
   company: "Coherent Pixels Systems Private Limited",
-  profileImage: "/src/assets/backgroundImage.jpg",
+  profileImage: "/backgroundImage.jpg",
 };
 
 export const ABOUT_ME = {
