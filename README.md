@@ -1,95 +1,82 @@
-# Sakthivel T | Professional Portfolio
+# Sakthivel T | Frontend Developer & UI Specialist
 
 [![Deploy static content to Pages](https://github.com/SakthivelArjun/Sakthivel_Portfolio/actions/workflows/deploy.yml/badge.svg)](https://github.com/SakthivelArjun/Sakthivel_Portfolio/actions/workflows/deploy.yml)
+[![Live Portfolio](https://img.shields.io/badge/Live-Portfolio-6366F1?style=flat-square&logo=react)](https://SakthivelArjun.github.io/Sakthivel_Portfolio/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Sakthivel--T-0077B5?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/sakthivel-t-6613a3227/)
+[![Email](https://img.shields.io/badge/Email-sakthiarjun1318%40gmail.com-D14836?style=flat-square&logo=gmail)](mailto:sakthiarjun1318@gmail.com)
 
-A high-performance, professional portfolio designed with a clean SaaS aesthetic. Built with React, Tailwind CSS v4, and Framer Motion to showcase my work as a Frontend Developer.
-
-**✨ [Live Demo](https://SakthivelArjun.github.io/Sakthivel_Portfolio/)**
-
----
-
-## Features
-
-- **Professional Aesthetics**: A handcrafted "SaaS Dashboard" look with a focus on typography and space.
-- **Dark/Light Mode**: Fully responsive theme switching with system preference detection.
-- **Micro-Animations**: Smooth, premium transitions using Framer Motion (circOut curves).
-- **Automated Deployment**: CI/CD pipeline integrated with GitHub Actions.
-- **Responsive Design**: Optimized for all devices from mobile to large desktop displays.
-- **Supabase Integration**: Functional contact form powered by Supabase.
+I am a dedicated **Frontend Developer** with **1.7+ years of professional experience** engineering scalable web applications. Specializing in the **React Ecosystem**, I transform complex logic and workflows into high-performance, intuitive user interfaces with a pixel-perfect, modern SaaS aesthetic.
 
 ---
 
-## Tech Stack
+## 🚀 Key Highlights
 
-- **Core**: React 19, Vite
-- **Styling**: Tailwind CSS v4 (Alpha/Beta engine)
-- **Animations**: Framer Motion
-- **Icons**: Lucide React
-- **Backend/Forms**: Supabase
-- **Deployment**: GitHub Pages + Actions
+* **1.7 Years Experience**: Proven growth from Intern to Junior Software Developer at **Coherent Pixels Systems**.
+* **Modern Tech Stack**: React 19, Next.js, Tailwind CSS v4, TypeScript, Supabase, and Framer Motion.
+* **SaaS Focus**: Experienced in building data-heavy dashboards, wizard forms, dynamic routing, and cloud integrations.
+* **Performance Native**: Optimizes rendering speeds, asset sizes, and API states (Zustand, React Query, Redux Toolkit).
 
 ---
 
-## Project Structure
+## 🛠️ Technical Tech Stack
 
-```text
-src/
-├── assets/          # Images and static media
-├── components/      
-│   ├── layout/      # Navbar, Footer
-│   └── ui/          # Reusable UI elements (ThemeToggle, etc.)
-├── constants/       # Global data constants (the source of truth)
-├── hooks/           # Custom React hooks (useTheme)
-├── sections/        # Main page sections (Hero, Projects, Experience, etc.)
-└── utils/           # Utility functions (Supabase client)
-```
+| Category | Technologies |
+| :--- | :--- |
+| **Core Frontend** | React.js, Next.js, TypeScript, JavaScript (ES6+) |
+| **Styling & UI** | Tailwind CSS v4, Material UI, Framer Motion, Shadcn UI |
+| **State Management** | Redux Toolkit, Zustand, Context API, React Query |
+| **Forms & Routing** | React Router v7, Formik, React Hook Form, Yup |
+| **Backend & Data** | Supabase, Firebase, REST APIs, GraphQL |
+| **Developer Tools** | Git, Vite, Postman, Figma, Jest |
 
 ---
 
-## Getting Started
+## 💻 Highlighted Projects
 
-### Prerequisites
+### 1. **SyntaxSpace IDE**
+* **Goal**: An instant, cloud-synced web development playground to prototype HTML/CSS/JS in the browser.
+* **Solution**: Developed a Monaco-powered split-pane editor featuring live viewports, browser console logging, and secure Workspace storage.
+* **Tech Stack**: React 18, Tailwind CSS v4, Monaco Editor, Supabase.
+* **Links**: [GitHub Repository](https://github.com/SakthivelArjun/SyntaxSpace.git)
 
-- Node.js 20+
-- npm
+### 2. **Interactive Data Visualizer**
+* **Goal**: An enterprise analytics platform offering high-density client-side visualizations and data privacy.
+* **Solution**: Built a Web Worker-based dashboard rendering 10,000+ data points natively with Recharts, complete with a plain-English NLP query input.
+* **Tech Stack**: React 19, Material UI, Recharts, Web Workers.
+* **Links**: [GitHub Repository](https://github.com/SakthivelArjun)
 
-### Installation
-
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/SakthivelArjun/Sakthivel_Portfolio.git
-   ```
-
-2. **Install dependencies**
-   ```bash
-   npm install
-   ```
-
-3. **Environment Setup**
-   Create a `.env` file in the root directory and add your Supabase credentials:
-   ```env
-   VITE_SUPABASE_URL=your_supabase_url
-   VITE_SUPABASE_ANON_KEY=your_supabase_key
-   ```
-
-4. **Start the development server**
-   ```bash
-   npm run dev
-   ```
-
-5. **Build for production**
-   ```bash
-   npm run build
-   ```
+### 3. **Allianta Vendor Portal**
+* **Goal**: Secure onboarding workflows for enterprise vendors.
+* **Solution**: Designed dynamic Wizard forms utilizing robust React state validation checks and overlay mechanics.
+* **Tech Stack**: React, Tailwind CSS, REST APIs.
 
 ---
 
-## Contact
+## 💼 Work Experience
 
-- **Email**: [sakthiarjun1318@gmail.com](mailto:sakthiarjun1318@gmail.com)
-- **LinkedIn**: [SakthivelArjun](https://www.linkedin.com/in/sakthivel-t-6613a3227/)
-- **GitHub**: [@SakthivelArjun](https://github.com/SakthivelArjun)
+#### **Frontend Developer** @ *Coherent Pixels Systems Private Limited*
+*Duration: 1.7 Years | Intern ➔ Junior Software Developer*
+* Took ownership of production-level features and comprehensive internal toolsets.
+* Built data-heavy admin dashboards, managing complex asynchronous data flows.
+* Engineered dynamic, highly-validated wizard forms for reliable business onboarding.
+* Optimized React rendering cycles and API payloads to improve page speed index score.
+* Refactored legacy UI components for cross-device compatibility and dark/light themes.
 
 ---
 
-Developed with ❤️ by Sakthivel T
+## 📈 Core Strengths
+
+* **Clean Code**: Reusable, component-driven design structures.
+* **Rapid Debugging**: Fast diagnostic loops and state tracing.
+* **Performance Tuning**: Bundle optimization and light assets.
+* **Aesthetic Detail**: Polished micro-interactions using Framer Motion.
+
+---
+
+## 📮 Get In Touch
+
+* **Email**: [sakthiarjun1318@gmail.com](mailto:sakthiarjun1318@gmail.com)
+* **Phone**: [+91 6374689430](tel:+916374689430)
+* **LinkedIn**: [Sakthivel T](https://www.linkedin.com/in/sakthivel-t-6613a3227/)
+* **GitHub**: [@SakthivelArjun](https://github.com/SakthivelArjun)
+* **Resume**: [Google Drive Link](https://drive.google.com/file/d/1jeP-w0r6GawXDST1VBsgIpfxzh9wsD1x/view?usp=sharing)
