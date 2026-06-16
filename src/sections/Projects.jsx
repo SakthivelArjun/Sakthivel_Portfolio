@@ -13,18 +13,26 @@ const FeaturedProject = ({ project, index }) => (
     {/* Visual Content (6 columns) */}
     <div className={`lg:col-span-6 relative ${index % 2 === 1 ? 'lg:order-2' : ''}`}>
       <div className="relative aspect-[16/9] rounded-2xl overflow-hidden glass-card border-none bg-indigo-primary/5 transition-all duration-500 group-hover:scale-[1.01]">
-         <div className="absolute inset-6 flex flex-col gap-3">
-            <div className="h-1.5 w-1/4 bg-indigo-primary/30 rounded-full"></div>
-            <div className="flex-grow rounded-xl bg-indigo-primary/5 border border-white/5 relative overflow-hidden">
-               <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-4/5 h-2/3 border border-indigo-primary/20 rounded-lg p-3 flex flex-col gap-3">
-                  <div className="flex gap-3">
-                     <div className="w-1/3 h-20 bg-indigo-primary/10 rounded-md"></div>
-                     <div className="w-2/3 h-20 bg-indigo-primary/10 rounded-md"></div>
+         {project.image ? (
+            <img 
+               src={project.image} 
+               alt={project.name} 
+               className="w-full h-full object-cover object-top opacity-[0.85] group-hover:opacity-100 transition-opacity duration-500" 
+            />
+         ) : (
+            <div className="absolute inset-6 flex flex-col gap-3">
+               <div className="h-1.5 w-1/4 bg-indigo-primary/30 rounded-full"></div>
+               <div className="flex-grow rounded-xl bg-indigo-primary/5 border border-white/5 relative overflow-hidden">
+                  <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-4/5 h-2/3 border border-indigo-primary/20 rounded-lg p-3 flex flex-col gap-3">
+                     <div className="flex gap-3">
+                        <div className="w-1/3 h-20 bg-indigo-primary/10 rounded-md"></div>
+                        <div className="w-2/3 h-20 bg-indigo-primary/10 rounded-md"></div>
+                     </div>
+                     <div className="h-12 w-full bg-cyan-accent/10 rounded-md"></div>
                   </div>
-                  <div className="h-12 w-full bg-cyan-accent/10 rounded-md"></div>
                </div>
             </div>
-         </div>
+         )}
       </div>
     </div>
 

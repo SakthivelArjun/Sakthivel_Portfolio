@@ -19,8 +19,8 @@ export const About = () => {
           >
             <div className="tag-pill mb-6">About Me</div>
             <h2>
-              I build websites that are{" "}
-              <span className="text-indigo-cyan">fast and easy to use.</span>
+              I build web applications that are{" "}
+              <span className="text-indigo-cyan">scalable and performant.</span>
             </h2>
             <p className="text-lg text-text-secondary leading-relaxed max-w-lg">
               {ABOUT_ME.bio}
@@ -40,18 +40,16 @@ export const About = () => {
             {/* Strategy Cards */}
             <div className="p-8 rounded-2xl glass-card border-none bg-indigo-primary/5">
               <Shield size={28} className="text-indigo-primary mb-4" />
-              <h3 className="text-lg font-bold mb-2">Good Code</h3>
+              <h3 className="text-lg font-bold mb-2">Scalable Architecture</h3>
               <p className="text-sm text-text-secondary leading-relaxed">
-                I write clear and clean code that is easy to manage and grow as
-                your project needs.
+                I engineer clean, component-driven codebases designed to be easily maintained and seamlessly scaled alongside your growing business requirements.
               </p>
             </div>
             <div className="p-8 rounded-2xl glass-card border-none bg-cyan-accent/5">
               <Rocket size={28} className="text-cyan-accent mb-4" />
-              <h3 className="text-lg font-bold mb-2">High Speed</h3>
+              <h3 className="text-lg font-bold mb-2">Performance Focus</h3>
               <p className="text-sm text-text-secondary leading-relaxed">
-                I focus on making sure websites load fast and work smoothly for
-                everyone.
+                I strictly optimize rendering cycles, asset loading, and API interactions to guarantee lightning-fast load times and flawless user experiences.
               </p>
             </div>
 
