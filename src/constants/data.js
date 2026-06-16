@@ -12,7 +12,7 @@ export const PERSONAL_INFO = {
   github: "https://github.com/SakthivelArjun",
   resume: "https://drive.google.com/file/d/1jeP-w0r6GawXDST1VBsgIpfxzh9wsD1x/view?usp=sharing",
   company: "Coherent Pixels Systems Private Limited",
-  profileImage: "/backgroundImage.jpg",
+  profileImage: "backgroundImage.jpg",
 };
 
 export const ABOUT_ME = {
@@ -69,7 +69,7 @@ export const PROJECTS = [
     features: ["Split-Pane Workspace", "Device Simulation", "Cloud Sync", "Dynamic Theming"],
     liveLink: "https://your-syntaxspace-link.com",
     github: "https://github.com/SakthivelArjun/SyntaxSpace.git",
-    image: "/syntaxspace.png",
+    image: "syntaxspace.png",
     isFeatured: true,
   },
   {
@@ -82,7 +82,7 @@ export const PROJECTS = [
     features: ["NLP Search Engine", "Intelligent Insights Panel", "Performance Native", "Absolute Privacy"],
     liveLink: "https://your-dataviz-link.com",
     github: "https://github.com/SakthivelArjun",
-    image: "/datavisualizer.png",
+    image: "datavisualizer.png",
     isFeatured: true,
   },
   {
