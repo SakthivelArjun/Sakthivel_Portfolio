@@ -10,7 +10,7 @@ export const PERSONAL_INFO = {
   phone: "+91-6374689430",
   linkedin: "https://www.linkedin.com/in/sakthivel-t-6613a3227/",
   github: "https://github.com/SakthivelArjun",
-  resume: "https://drive.google.com/file/d/1jeP-w0r6GawXDST1VBsgIpfxzh9wsD1x/view?usp=sharing",
+  resume: "https://drive.google.com/file/d/1wa07cuv5mxYJMKRHq6eI7orEP5V8D2u2/view?usp=sharing",
   company: "Coherent Pixels Systems Private Limited",
   profileImage: "backgroundImage.jpg",
 };
